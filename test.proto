@@ -1,5 +1,5 @@
 syntax = "proto3";
-package proto;
+package pbgo;
 
 service Test{
     rpc TestMethod (Request) returns (Response);
