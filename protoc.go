@@ -30,7 +30,7 @@ func Generate() error {
 			fmt.Println(fmt.Sprintf("generate %s pb.go file error，%s %s", name, err.Error(), string(w.Bytes())))
 			return errors.New(string(w.Bytes()))
 		}
-		log.Println(fmt.Sprintf("success %s pb.go", name))
+		log.Println(fmt.Sprintf("success %s => %s.pb.go", name, strings.TrimRight(name, ".proto")))
 		return nil
 	}
 
