@@ -1,9 +1,0 @@
-syntax = "proto3";
-package pbgo;
-
-service Test{
-    rpc TestMethod (Request) returns (Response);
-}
-
-message Request{}
-message Response{}

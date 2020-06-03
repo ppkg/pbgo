@@ -1,0 +1,15 @@
+syntax = "proto3";
+package b;
+
+service Test{
+    rpc TestMethod (BaseRequest) returns (BaseResponse);
+}
+
+message BaseRequest{
+}
+message BaseResponse {
+    int32 code = 1;
+    string message = 2;
+    string error = 3;
+    repeated string details = 4;
+}
