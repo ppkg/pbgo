@@ -1,4 +1,4 @@
-module github.com/maybgit/pbgo
+module github.com/gogrpc/pbgo
 
 go 1.13
 
