@@ -1,4 +1,4 @@
-module github.com/gogrpc/pbgo
+module github.com/ppkg/pbgo
 
 go 1.13
 
